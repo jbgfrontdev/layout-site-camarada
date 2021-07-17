@@ -46,11 +46,14 @@
         <section id="about" class="shadow bg-white h-100 flex align-items-center">
             <div class="container shadow rounded">
                 <div class="wrapper flex ">
-                    <div class="bg-dark w-50 px-64 py-36" id="about-title">
+                    <div class="bg-primary w-50 px-64 py-36" id="about-title">
                         <h2 class="text-white text-6xl">About</h2>
                     </div>
                     <div class="bg-white  py-36 font-w-semibold text px-64 flex flex-1 flex-column">
-                        <p class="mb-42 text-dark text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur soluta blanditiis distinctio unde ad. Fuga praesentium veniam eligendi laudantium quis molestias, sit dignissimos. Perferendis possimus repudiandae magnam alias autem? Facere.</p>
+                        <p class="mb-42 text-default text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Aspernatur soluta blanditiis distinctio unde ad. Fuga praesentium veniam eligendi laudantium
+                            quis molestias, sit dignissimos. Perferendis possimus repudiandae magnam alias autem?
+                            Facere.</p>
 
                         <div>
                             <button class="btn-dark">
@@ -64,86 +67,120 @@
         </section>
 
         <!-- Metrics -->
-        <!-- <section id="metrics">
+        <section id="metrics" class="shadow bg-white h-100 flex align-items-center">
             <div class="container py-36">
-                <header>
-                    <h2>Métricas</h2>
-                </header>
-                <div class="metrics-wrapper justify-content-center flex flex-wrap align-items-center">
-                    <div class="metric w-50">
-                        <h3>Acessos</h3>    
-                        <p>+4000 <span>por mês</span></p>
-                    </div>
+                <div class="wrapper">
+                    <header>
+                        <h2 class="text-white">Métricas</h2>
+                    </header>
 
-                    <div class="metric w-50">
-                        <h3>Acessos</h3>    
-                        <p>+4000 <span>por mês</span></p>
-                    </div>
+                    <div class="flex flex-wrap mx-n-8">
+                        <div class="w-50 p-8">
+                            <div class="metric">
+                                <p>+4000 <span>por mês</span></p>
+                                <h3>Acessos</h3>
+                            </div>
+                        </div>
 
-                    <div class="metric w-50">
-                        <h3>Usuários</h3>    
-                        <p>+900 <span>por mês</span></p>
-                    </div>
+                        <div class="w-50 p-8">
+                            <div class="metric">
+                                <p>+4000 <span>por mês</span></p>
+                                <h3>Usuários</h3>
+                            </div>
+                        </div>
 
-                    <div class="metric w-50">
-                        <h3>Regiões</h3>    
-                        <p>+20 <span>estados</span></p>
-                    </div>
+                        <div class="w-50 p-8">
+                            <div class="metric">
+                                <p>+20 <span>estados</span></p>
+                                <h3>Regiões</h3>
+                            </div>
+                        </div>
 
-                    <div class="metric w-50">
-                        <h3>Alcance</h3>    
-                        <p>+150 cidades <span>por mês</span></p>
+                        <div class="w-50 p-8">
+                            <div class="metric">
+                                <p>+150 <span>cidades por mês</span></p>
+                                <h3>Alcance</h3>
+                            </div>
+                        </div>
+
+
+                        <!-- <div class="w-50 p-8">
+                            <div class="metric">
+                                <h3>Usuários</h3>
+                                <p>+900 <span>por mês</span></p>
+                            </div>
+                        </div>
+
+                        <div class="w-50 p-8">
+                            <div class="metric">
+                                <h3>Regiões</h3>
+                                <p>+20 <span>estados</span></p>
+                            </div>
+                        </div>
+
+                        <div class="w-50 p-8">
+                            <div class="metric">
+                                <h3>Alcance</h3>
+                                <p>+150 cidades <span>por mês</span></p>
+                            </div>
+                        </div> -->
                     </div>
                 </div>
+            </div>
 
             </div>
-        </section> -->
+        </section>
 
         <!-- Plans -->
         <section id="plans" class="h-100 bg-light flex align-items-center">
             <div class="container">
                 <header>
-                    <h2>Plans</h2>
+                    <h2>Planos</h2>
                 </header>
 
                 <div class="plans-wrapper">
                     <div class="rounded">
                         <div class="card">
-                            <div class="card__header flex space-between">
-                                <h3 class="card__title text-white">Start</h3>
-                                <p class="text-right font-primary text-lg font-w-bold text-dark bg-white p-8 rounded"><span>R$</span> 69,00</p>
+                            <div class="card__header bg-secondary">
+                                <h3 class="card__title">Start</h3>
+                                <p>
+                                    <span>R$</span> 69,00
+                                </p>
                             </div>
                             <div class="card__body">
-                                <p class="text-lg flex align-items-center space-between">
-                                    <span class="font-primary text-2xl font-w-bold text-dark mr-16 block">100</span>
-                                    <span class="block text-lg text-dark">pessoas alcançadas </span>
+                                <p class="plan__item">
+                                    <span class="plan__title">100</span>
+                                    <span class="plan__content">pessoas alcançadas </span>
                                 </p>
 
-                                <p class="text-lg flex align-items-center space-between">
-                                    <span class="font-primary text-2xl strong font-w-bold text-dark mr-16 block">1</span>
-                                    <span class="block text-lg text-dark">dia de duração
+                                <p class="plan__item">
+                                    <span
+                                        class="plan__title">1</span>
+                                    <span class="plan__content">dia de duração
                                         <span class="text-sm text-default block">(estimada)</span>
                                     </span>
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="rounded">
+                    <!-- <div class="rounded">
                         <div class="card">
                             <div class="card__header flex space-between">
                                 <h3 class="card__title text-white">Plus</h3>
-                                <p class="text-right font-primary text-lg font-w-bold text-dark bg-white p-8 rounded"><span>R$</span> 157,50</p>
+                                <p class="text-right font-primary text-lg font-w-bold text-primary bg-white p-8 rounded">
+                                    <span>R$</span> 157,50
+                                </p>
                             </div>
                             <div class="card__body">
                                 <p class="text-lg flex align-items-center space-between">
-                                    <span class="font-primary  text-2xl font-w-bold text-dark mr-16 block">250</span>
-                                    <span class="block text-lg text-dark">pessoas
+                                    <span class="font-primary  text-2xl font-w-bold text-primary mr-16 block">250</span>
+                                    <span class="block text-lg text-default">pessoas
                                         alcançadas</span>
                                 </p>
 
                                 <p class="text-lg flex align-items-center space-between">
-                                    <span class="font-primary  text-2xl font-w-bold text-dark mr-16 block">2</span>
-                                    <span class="block text-lg text-dark">1 mês
+                                    <span class="font-primary  text-2xl font-w-bold text-default mr-16 block">2</span>
+                                    <span class="block text-lg text-default">1 mês
                                         <span class="text-sm text-default block">(estimada)</span>
                                     </span>
                                 </p>
@@ -154,7 +191,9 @@
                         <div class="card">
                             <div class="card__header flex space-between">
                                 <h3 class="card__title text-white">Master</h3>
-                                <p class="text-right font-primary text-lg font-w-bold text-dark bg-white p-8 rounded"><span>R$</span> 275,00</p>
+                                <p class="text-right font-primary text-lg font-w-bold text-dark bg-white p-8 rounded">
+                                    <span>R$</span> 275,00
+                                </p>
                             </div>
                             <div class="card__body">
                                 <p class="text-lg flex align-items-center space-between">
@@ -175,7 +214,9 @@
                         <div class="card">
                             <div class="card__header flex space-between">
                                 <h3 class="card__title text-white">Premium</h3>
-                                <p class="text-right font-primary text-lg font-w-bold text-dark bg-white p-8 rounded"><span>R$</span> 343,00</p>
+                                <p class="text-right font-primary text-lg font-w-bold text-dark bg-white p-8 rounded">
+                                    <span>R$</span> 343,00
+                                </p>
                             </div>
                             <div class="card__body">
                                 <p class="text-lg flex align-items-center space-between">
@@ -191,7 +232,7 @@
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
